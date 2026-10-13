@@ -3,7 +3,7 @@
 Gioco da bartender e bar manager con i 102 cocktail ufficiali IBA, in 3D.
 Questa repository contiene solo la **versione web già compilata** (niente sorgenti), pubblicata con GitHub Pages.
 
-**Gioca:** https://giacomoarini-bot.github.io/on-the-rocks/
+**Gioca:** https://giacomoarini-bot.github.io/On-the-rocks/
 
 ## Su iPhone
 1. Apri il link in Safari (serve iOS 16.4 o più recente).
