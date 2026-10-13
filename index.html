@@ -81,7 +81,7 @@
   try { new WebAssembly.Module(new Uint8Array([0, 97, 115, 109, 1, 0, 0, 0])); }
   catch (e) { return fail("Questo browser blocca WebAssembly: il motore 3D non può partire."); }
   var CONFIG = { "args": [], "canvasResizePolicy": 2, "ensureCrossOriginIsolationHeaders": false, "executable": "index", "experimentalVK": false,
-    "fileSizes": { "index.pck": 30325984, "index.wasm": 39514754 }, "focusCanvas": true, "gdextensionLibs": [] };
+    "fileSizes": { "index.pck": 30353564, "index.wasm": 39514754 }, "focusCanvas": true, "gdextensionLibs": [] };
   var engine = new Engine(CONFIG);
   var missing = Engine.getMissingFeatures({ threads: false });
   if (missing.length) return fail("Mancano funzioni del browser: " + missing.join(", ") + ".");
@@ -94,4 +94,4 @@
 </script>
 </body>
 </html>
-<!-- versione 2.12 -->
+<!-- versione 2.13 -->
