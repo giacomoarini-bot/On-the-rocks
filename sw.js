@@ -1,5 +1,5 @@
 // Tiene il gioco in memoria sul telefono: dopo il primo avvio parte subito, anche senza rete.
-const CACHE = "otr-2.13";
+const CACHE = "otr-2.14";
 const FILES = ["./", "index.html", "index.js", "index.audio.worklet.js", "index.audio.position.worklet.js", "engine.z.wasm", "data.z.wasm", "manifest.webmanifest", "icon-180.png", "icon-192.png", "icon-512.png"];
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(FILES)).then(() => self.skipWaiting()));
